@@ -1,0 +1,34 @@
+{
+  "name": "bcoin-indexer",
+  "version": "1.0.0",
+  "description": "indexer for bcoin",
+  "main": "index.js",
+  "scripts": {
+    "test": "npm run test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/tuxcanfly/bcoin-indexer.git"
+  },
+  "peerDependencies": {
+    "bcoin": "0.0.0"
+  },
+  "keywords": [
+    "bcoin",
+    "indexer"
+  ],
+  "author": "Javed Khan <tuxcanfly@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/tuxcanfly/bcoin-indexer/issues"
+  },
+  "homepage": "https://github.com/tuxcanfly/bcoin-indexer#readme",
+  "dependencies": {
+    "bdb": "^1.1.0",
+    "bevent": "^0.1.1",
+    "bfile": "^0.1.1",
+    "blgr": "^0.1.1",
+    "bmutex": "^0.1.2",
+    "bufio": "^1.0.1"
+  }
+}
